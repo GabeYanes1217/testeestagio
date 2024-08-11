@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "teste_estagio",
+    "slug": "testeestagio",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gabeyanes.testeestagio"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.gabeyanes.testeestagio"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "48340119-3703-42b9-9db7-82ee4d2fabc7"
+      }
+    },
+    "owner": "gabeyanes",
+    "updates": {
+      "url": "https://u.expo.dev/48340119-3703-42b9-9db7-82ee4d2fabc7"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
